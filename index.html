@@ -75,6 +75,7 @@
     }
 
     function getEnvironment() {
+      console.log({"Get OS":liff.getOS(),"Get Language":liff.getLanguage()})
       document.getElementById("os").append(liff.getOS())
       document.getElementById("language").append(liff.getLanguage())
       document.getElementById("version").append(liff.getVersion())
